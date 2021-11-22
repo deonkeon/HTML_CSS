@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Link</title>
+    <style>
+      a:link {
+        /* a 태그에서 처음 로딩 했을 때 작동 */
+        color: #0000ff;
+        text-decoration: none;
+      }
+      a:visited {
+        /* 방문했던 사이트에 대한 설정 */
+        color: #00ff00;
+      }
+      a:hover {
+        /* 마우스를 롤오버 했을 때 */
+        color: #ff0000;
+        font-weight: bold;
+        text-decoration: underliner;
+      }
+      a:active {
+        /* 마우스로 링크걸린 곳을 클릭 했을 때 */
+        color: #00ffff;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="08_font_family.html" target="_self"> 폰트 패밀리 </a><br /><br />
+    <a href="chap05.html" target="_self"> chap05 index </a><br><br>
+    <a href="../index.html" target="_self"> 메인화면 </a>
+  </body>
+</html>

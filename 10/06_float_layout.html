@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>float으로 layout 만들기</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #f2f0f0;
+        font-family: "맑은 고딕";
+        font-size: 12px;
+        color: #444444;
+      }
+      ul {
+        list-style-type: none;
+      }
+      .clear {
+        clear: both;
+      }
+      #logo {
+          /* border : solid 1px red; */
+        padding: 30px 0 0 30px;
+        float: left;
+      }
+      #top_menu {
+        margin: 40px 10px 0 0;
+        float: right;
+      }
+      #top_menu li {
+        display: inline;
+      }
+      #main_menu {
+        font-size: 12px;
+        color: #ffffff;
+        background-color: #4e4c4d;
+        margin-top: 15px;
+        padding: 12px;
+        text-align: center;
+      }
+      #main_menu li {
+        padding: 0 20px 0 20px;
+        display: inline;
+      }
+      a {
+          text-decoration: none;
+          color : inherit;
+      }
+      a:hover{    /* 마우스 오버 했을때 */
+            color: black;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        a:active{   /* 마우스 클릭했을때 */
+            color : #a4b9aa;
+        }
+
+    </style>
+  </head>
+  <body>
+      <div id="logo"><img src="img/logo.gif" /></div>
+      <ul id="top_menu">
+        <li><a href="#">로그인</a> |</li>
+        <li><a href="#">회원가입</a> |</li>
+        <li><a href="#">마이페이지</a> |</li>
+        <li><a href="#">주문 배송 조회</a> |</li>
+        <li><a href="#">장바구니</a> |</li>
+        <li><a href="#">이용안내</a> |</li>
+        <li><a href="#">고객센터</a></li>
+      </ul>
+      <div class="clear"></div>
+
+      <ul id="main_menu">
+        <li><a href="#">다연아트 소개</a></li>
+        <li><a href="#">상품 Q&A</a></li>
+        <li><a href="#">시안 확인</a></li>
+        <li><a href="#">고객 갤러리</a></li>
+        <li><a href="#">공지사항</a></li>
+      </ul>
+    </form>
+    <br><br>
+    <a href="chap08.html" target="_self"> chap10 index </a><br /><br />
+    <a href="../index.html" target="_self"> 메인화면 </a>
+  </body>
+</html>

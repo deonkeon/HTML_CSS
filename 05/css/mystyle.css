@@ -1,0 +1,8 @@
+h3 {
+  color: rgb(255, 0, 0);
+  /* color : #ff0000; &
+     color : red;
+     color : rgb(~,~,~);
+  */
+  font-size: 20px;
+}

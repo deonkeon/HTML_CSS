@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+}
+h3 {
+  font-size: 25px;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(150, 147, 147);
+}
+a:visited {
+  text-decoration: none;
+  color: rgb(122, 186, 211);
+}
+a:hover {
+  text-decoration: underline #2d6e94;
+  color: #2d6e94;
+}
+a:active {
+  color: black;
+  text-decoration: underline black;
+}
+details {
+  font-size: 30px;
+  color: rgb(122, 186, 211);
+  display: inline-block;
+  width: 100%;
+}
+summary {
+  cursor: pointer;
+  color: #149655;
+}
+details ul {
+  list-style-type: none;
+  padding: 10px;
+}
+details li {
+  padding: 5px;
+  font-size: 25px;
+}
+
+table,
+tr,
+td,
+th {
+  border: dotted 3px #b6b3b3;
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: top;
+  margin: 15px;
+  padding: 15px;
+}
